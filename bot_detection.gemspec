@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = BotDetection::VERSION
   spec.authors       = ["Nils Berenbold"]
   spec.email         = ["nils.berenbold@gmail.com"]
-  spec.summary       = %q{Detects Search Engine crawles by reverse DNS lookups.}
+  spec.summary       = %q{Detects Search Engine crawlers by reverse DNS lookups.}
   spec.homepage      = "http://www.nilsberenbold.de"
   spec.license       = "MIT"
 
