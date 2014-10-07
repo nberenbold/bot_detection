@@ -22,19 +22,19 @@ module BotDetection::InstanceMethods
   end
 
   def is_google?
-    BotDetection::GOOGLE_USER_AGENTS.include?(request.env['HTTP_USER_AGENT']) || request.user_agent.downcase.include?("googlebot")
+    BotDetection::GOOGLE_USER_AGENTS.include?(request.env['HTTP_USER_AGENT']) || request.user_agent.to_s.downcase.include?("googlebot")
   end
   
   def is_yahoo?
-    request.user_agent.downcase.include?("yahoo! slurp")
+    request.user_agent.to_s.downcase.include?("yahoo! slurp")
   end
   
   def is_msn?
-    request.user_agent.downcase.include?("msnbot")
+    request.user_agent.to_s.downcase.include?("msnbot")
   end
   
   def is_bing?
-    request.user_agent.downcase.include?("bing")
+    request.user_agent.to_s.downcase.include?("bing")
   end
   
   def get_hostname(ip_address)
