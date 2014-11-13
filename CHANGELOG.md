@@ -1,6 +1,10 @@
 # Changelog
 
-#### Release 1.0.2
+#### Release 1.0.4
+
+- added several new user agents, which have been spotted around, to the list
+
+#### Release 1.0.3
 
 - fixed a bug causing the lookup to throw an exception if the reverse lookup fails
 
