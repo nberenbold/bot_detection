@@ -1,6 +1,17 @@
 # BotDetection
 
 BotDetection will help you identify users on your site as search engine crawlers or other bots like Facebook spiders.
+Currently supported Bots are:
+
+- Search Engines:
+	- all known Google-Bots
+	- Yahoo
+	- MSN
+	- Bing
+	- Yandex
+	- Baidu
+- Bots
+	- Facebook
 
 ## Installation
 
