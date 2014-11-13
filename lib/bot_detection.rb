@@ -1,4 +1,5 @@
 require "bot_detection/version"
+require "public_suffix"
 
 module BotDetection
   def self.included(target)
