@@ -1,5 +1,9 @@
 # Changelog
 
+#### Release 1.0.2
+
+- added some new user agents to the list of known bots
+
 #### Release 1.0.1
 
 - Yandex support added

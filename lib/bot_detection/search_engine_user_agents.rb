@@ -1,4 +1,5 @@
 BotDetection::SearchEngineUserAgents = [
+  "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)",
   "Baiduspider+(+http://www.baidu.com/search/spider.htm)",
   "Baiduspider+(+http://www.baidu.com/search/spider_jp.html)",
   "BaiDuSpider",
