@@ -21,4 +21,5 @@ BotDetection::BotUserAgents = [
   "Pinterest/0.1 +http://pinterest.com/",
   "Googlebot (gocrawl v0.4)",
   "Mozilla/5.0 (compatible; Alexabot/1.0; +http://www.alexa.com/help/certifyscan; certifyscan@alexa.com)",
+  "Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)", # perhaps a search engine?
 ]
