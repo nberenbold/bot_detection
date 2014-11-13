@@ -16,6 +16,10 @@ Or install it yourself as:
 
     $ gem install bot_detection
 
+## Changes
+
+See the [CHANGELOG.md](CHANGELOG.md) file for details.
+
 ## Usage
 
 TODO: Write usage instructions here

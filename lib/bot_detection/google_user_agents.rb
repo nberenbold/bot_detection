@@ -1,5 +1,6 @@
 BotDetection::GOOGLE_USER_AGENTS = [
   "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+  "Googlebot/2.1 (+http://www.googlebot.com/bot.html)",
   "Googlebot/2.1 (+http://www.google.com/bot.html)",
   "Googlebot-News",
   "Googlebot-Image/1.0",
