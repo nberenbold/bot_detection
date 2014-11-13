@@ -20,11 +20,14 @@ module BotDetection::InstanceMethods
     return true if options.delete(:development)
 
     host   = get_hostname(remote_ip)
+    return false if host.nil?
     domain = PublicSuffix.parse(host) rescue nil
     return false if domain.nil?
     
     return false unless ["crawl.yahoo.net", "googlebot.com", "google.com", "search.msn.com", "ask.com", "yandex.net", "yandex.com", "yandex.ru", "baidu.com", "baidu.jp"].include?(domain.domain.downcase)
-    get_hostip(host) == remote_ip
+    host_ip = get_hostip(host)
+    return false if host_ip.nil?
+    host_ip = remote_ip
   end
 
   def is_google?
@@ -37,11 +40,11 @@ protected
   end
   
   def get_hostname(ip_address)
-    Socket.gethostbyaddr(ip_address.split(".").map(&:to_i).pack("CCCC")).first
+    Socket.gethostbyaddr(ip_address.split(".").map(&:to_i).pack("CCCC")).first rescue nil
   end
   
   def get_hostip(host)
-    Socket.gethostbyname(host).last.unpack("C*").join(".")    
+    Socket.gethostbyname(host).last.unpack("C*").join(".") rescue nil
   end
 
   def user_agent

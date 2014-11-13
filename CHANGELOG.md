@@ -2,6 +2,10 @@
 
 #### Release 1.0.2
 
+- fixed a bug causing the lookup to throw an exception if the reverse lookup fails
+
+#### Release 1.0.2
+
 - added some new user agents to the list of known bots
 
 #### Release 1.0.1
