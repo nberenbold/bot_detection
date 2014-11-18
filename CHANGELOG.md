@@ -1,5 +1,9 @@
 # Changelog
 
+#### Release 1.0.5
+
+- added several new user agents, which have been spotted around, to the list
+
 #### Release 1.0.4
 
 - added several new user agents, which have been spotted around, to the list

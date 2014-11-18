@@ -48,6 +48,6 @@ protected
   end
 
   def user_agent
-    (request.env['HTTP_USER_AGENT'] || request.user_agent).to_s
+    (request.env['HTTP_USER_AGENT'] || request.user_agent).to_s.strip
   end
 end
