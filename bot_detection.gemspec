@@ -9,12 +9,15 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nils Berenbold"]
   spec.email         = ["nils.berenbold@gmail.com"]
   spec.summary       = %q{Detects Search Engine crawlers by reverse DNS lookups.}
-  spec.homepage      = "http://www.nilsberenbold.de"
+  spec.homepage      = "http://www.bot-detection.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
+  spec.test_files    = `git ls-files -- {spec}/*`.split("\n")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'actionpack', '>= 3.0.0'
 
   spec.add_runtime_dependency "public_suffix", "~> 1.4.6"
 
