@@ -3,6 +3,7 @@
 #### Release 1.0.7
 
 - added several new user agents, which have been spotted around, to the list
+- added rspec to validate builds on travis
 
 #### Release 1.0.6
 
