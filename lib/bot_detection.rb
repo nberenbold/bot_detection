@@ -1,7 +1,5 @@
 require 'action_controller'
 require 'action_view'
-
-require "bot_detection/version"
 require "public_suffix"
 
 module BotDetection
