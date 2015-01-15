@@ -8,10 +8,6 @@ class BotDetectionController < ActionController::Base
   def test2
     @bot_detector = BotDetection::Detector.new(user_agent: "Googlebot/2.1 (+http://www.googlebot.com/bot.html)", remote_ip: "66.249.66.1")
   end
-
-  def test3
-    @bot_detector = BotDetection::Detector.new(user_agent: BotDetection::BotUserAgents.first, remote_ip: "127.0.0.1")
-  end
 end
 
 describe BotDetection::ControllerHelper do
