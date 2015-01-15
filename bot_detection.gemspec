@@ -5,6 +5,7 @@ require 'bot_detection/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bot_detection"
+  spec.description   = "Checks a user agent for a web crawler"
   spec.version       = BotDetection::VERSION
   spec.authors       = ["Nils Berenbold"]
   spec.email         = ["nils.berenbold@gmail.com"]
@@ -16,9 +17,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "public_suffix", "~> 1.4.6"
+  spec.add_runtime_dependency "public_suffix", "~> 1.4"
 
   spec.add_development_dependency "rspec", "~> 3.1"
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 10.4"
 end
