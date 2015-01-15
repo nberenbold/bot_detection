@@ -1,5 +1,9 @@
 # Changelog
 
+#### Release 1.0.8
+
+- Bugfix to check if the remote_ip is the host_ip of the bot
+
 #### Release 1.0.7
 
 - added several new user agents, which have been spotted around, to the list
