@@ -86,4 +86,12 @@ BotDetection::BotUserAgents = [
   "rogerbot/1.0 (http://moz.com/help/pro/what-is-rogerbot-, rogerbot-crawler+shiny@moz.com)",
   "crawler4j (http://code.google.com/p/crawler4j/)",
   "Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)",
+  "Mozilla/5.0 (compatible; Optimizer)",
+  "Disqus/1.0",
+  "facebookexternalhit/1.1",
+  "Nutch/2.2.1 (page scorer; http://integralads.com/site-indexing-policy/)",
+  "R6_CommentReader(www.radian6.com/crawler)",
+  "R6_FeedFetcher(www.radian6.com/crawler)",
+  "tbot-nutch/Nutch-1.10",
+  "ADmantX Platform Semantic Analyzer - Turn - ADmantX Inc. - www.admantx.com - support@admantx.com"
 ]
