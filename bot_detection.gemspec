@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nils Berenbold"]
   spec.email         = ["nils.berenbold@gmail.com"]
   spec.summary       = %q{Detects Search Engine crawlers by reverse DNS lookups.}
-  spec.homepage      = "http://www.nilsberenbold.de"
+  spec.homepage      = "https://github.com/nberenbold/bot_detection"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

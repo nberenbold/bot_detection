@@ -93,5 +93,5 @@ BotDetection::BotUserAgents = [
   "R6_CommentReader(www.radian6.com/crawler)",
   "R6_FeedFetcher(www.radian6.com/crawler)",
   "tbot-nutch/Nutch-1.10",
-  "ADmantX Platform Semantic Analyzer - Turn - ADmantX Inc. - www.admantx.com - support@admantx.com"
+  "ADmantX Platform Semantic Analyzer - Turn - ADmantX Inc. - www.admantx.com - support@admantx.com",
 ]
